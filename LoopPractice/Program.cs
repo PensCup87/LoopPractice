@@ -73,21 +73,36 @@ namespace LoopPractice
             //    }
             //}
 
-            int[] engineSize = new int[5];
-            for(int i = 0; i < engineSize.Length; i++)
-            {
-                Console.WriteLine("List some engine sizes in CCs");
-                int engine = int.Parse(Console.ReadLine());
-                
-                //this puts each value into an index
-                engineSize[i] = engine;
-                //Console.WriteLine(engineSize[i]);
-            }
-            foreach(int engine in engineSize)
-            {
-                Console.WriteLine(engine);
-            }
+            //int[] engineSize = new int[5];
+            //for(int i = 0; i < engineSize.Length; i++)
+            //{
+            //    Console.WriteLine("List some engine sizes in CCs");
+            //    int engine = int.Parse(Console.ReadLine());
 
+            //    //this puts each value into an index
+            //    engineSize[i] = engine;
+            //    //Console.WriteLine(engineSize[i]);
+            //}
+            //foreach(int engine in engineSize)
+            //{
+            //    Console.WriteLine(engine);
+            //}
+
+            string[] christmasCookies = { "chocolate chip", "ginger snap", "snicker dootle" };
+            Array.Reverse(christmasCookies);
+            char[] newSpelling = christmasCookies[2].ToCharArray();
+            //Array.Reverse(newSpelling);
+            for(int i = 0; i < newSpelling.Length; i++)
+            {
+                Console.Write(newSpelling[i]);
+                
+            }
+            Console.WriteLine("\n");
+            for (int i = 0; i < christmasCookies.Length; i++)
+            {
+                
+                Console.WriteLine(christmasCookies[i]);
+            }
 
         }
     }
