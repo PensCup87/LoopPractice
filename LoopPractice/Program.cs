@@ -104,6 +104,27 @@ namespace LoopPractice
                 Console.WriteLine(christmasCookies[i]);
             }
 
+
+
+            string[] wackPack = { "Sour Shoes", "Gary the Conqurer", "BeetleJuice", "High Pitch Eric", "Wendy the Slow Adult" };
+
+            for(int i = 0; i < wackPack.Length; i++)
+            {
+                if(6 < 9 && 9 > 10)
+                {
+                    Console.WriteLine(wackPack[1] + " is the smartest wackpacker");
+                }
+                else if(19790 < 2017 || 6 > 9)
+                {
+                    Console.WriteLine(wackPack[0] + " makes a better Gary than the actual Gary");
+                }
+                else
+                {
+                    Console.WriteLine(wackPack[i]);
+                }
+            }
         }
     }
 }
+
+
