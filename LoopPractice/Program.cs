@@ -88,41 +88,52 @@ namespace LoopPractice
             //    Console.WriteLine(engine);
             //}
 
-            string[] christmasCookies = { "chocolate chip", "ginger snap", "snicker dootle" };
-            Array.Reverse(christmasCookies);
-            char[] newSpelling = christmasCookies[2].ToCharArray();
-            //Array.Reverse(newSpelling);
-            for(int i = 0; i < newSpelling.Length; i++)
-            {
-                Console.Write(newSpelling[i]);
-                
-            }
-            Console.WriteLine("\n");
-            for (int i = 0; i < christmasCookies.Length; i++)
-            {
-                
-                Console.WriteLine(christmasCookies[i]);
-            }
+            //string[] christmasCookies = { "chocolate chip", "ginger snap", "snicker dootle" };
+            //Array.Reverse(christmasCookies);
+            //char[] newSpelling = christmasCookies[2].ToCharArray();
+            ////Array.Reverse(newSpelling);
+            //for(int i = 0; i < newSpelling.Length; i++)
+            //{
+            //    Console.Write(newSpelling[i]);
+
+            //}
+            //Console.WriteLine("\n");
+            //for (int i = 0; i < christmasCookies.Length; i++)
+            //{
+
+            //    Console.WriteLine(christmasCookies[i]);
+            //}
 
 
 
-            string[] wackPack = { "Sour Shoes", "Gary the Conqurer", "BeetleJuice", "High Pitch Eric", "Wendy the Slow Adult" };
+            //string[] wackPack = { "Sour Shoes", "Gary the Conqurer", "BeetleJuice", "High Pitch Eric", "Wendy the Slow Adult" };
 
-            for(int i = 0; i < wackPack.Length; i++)
-            {
-                if(6 < 9 && 9 > 10)
-                {
-                    Console.WriteLine(wackPack[1] + " is the smartest wackpacker");
-                }
-                else if(19790 < 2017 || 6 > 9)
-                {
-                    Console.WriteLine(wackPack[0] + " makes a better Gary than the actual Gary");
-                }
-                else
-                {
-                    Console.WriteLine(wackPack[i]);
-                }
-            }
+            //for(int i = 0; i < wackPack.Length; i++)
+            //{
+            //    if(6 < 9 && 9 > 10)
+            //    {
+            //        Console.WriteLine(wackPack[1] + " is the smartest wackpacker");
+            //    }
+            //    else if(19790 < 2017 || 6 > 9)
+            //    {
+            //        Console.WriteLine(wackPack[0] + " makes a better Gary than the actual Gary");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(wackPack[i]);
+            //    }
+            //}
+
+            //for(int i = 2; i <= 100; i++)
+            //{
+            //    if(i % 1 != 0 && i % i != 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            Console.WriteLine("Enter 4 letters");
+            string letters = ;
         }
     }
 }
