@@ -124,16 +124,37 @@ namespace LoopPractice
             //    }
             //}
 
-            //for(int i = 2; i <= 100; i++)
+            //int num = 2;
+            //for(int i = 2; i < 100; i++)
             //{
-            //    if(i % 1 != 0 && i % i != 0)
+            //    if(num != 0 && i != 1)
             //    {
-            //        Console.WriteLine(i);
+            //        if (num % 2 != 0 && num % 3 != 0 && num % 5 != 0 && num % 7 != 0)
+            //            //if(num / i == num && num / i == 1)
+            //        {
+            //            Console.WriteLine(i);
+            //        }
             //    }
+            //    num++;
             //}
 
-            Console.WriteLine("Enter 4 letters");
-            string letters = ;
+            for(int i = 1; i <= 100; i++)
+            {
+                for(int j = 2; j<i; j++)
+                {
+                    if (i%j==0)
+                    {
+                        int a = 0; 
+                    }
+                    else 
+                    {
+                        Console.WriteLine(i);
+                    }
+                    
+                }
+            }
+
+          
         }
     }
 }
